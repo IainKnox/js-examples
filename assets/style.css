@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    border: none;
+    scroll-behavior: smooth;
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.face {
+    position: absolute;
+    background-color: burlywood;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.eye-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.eye {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.pupil {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 10px 0 10px 20px;
+}
